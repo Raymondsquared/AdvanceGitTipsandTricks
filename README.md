@@ -37,6 +37,7 @@ Add file contents to the index
 
 ```sh
 $ git push
+$ git push origin work
 ```
 
 Update remote refs along with associated objects
