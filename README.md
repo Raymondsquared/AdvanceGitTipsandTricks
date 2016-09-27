@@ -40,3 +40,13 @@ $ git push
 ```
 
 Update remote refs along with associated objects
+
+### git branch - https://git-scm.com/docs/git-branch
+
+```sh
+$ git branch
+$ git branch work
+$ git branch -d work
+```
+
+List, create, or delete branches
