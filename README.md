@@ -1,16 +1,18 @@
 # AdvanceGitTipsandTricks
 Advance Git Tips and Tricks
 
-### git clone
+### git clone - https://git-scm.com/docs/git-clone
 
 ```sh
 $ git clone https://github.com/Raymondsquared/AdvanceGitTipsandTricks.git
 ```
 
-https://git-scm.com/docs/git-clone
+Clone a repository into a new directory
 
-Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository (visible using git branch -r), and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.
+### git status - https://git-scm.com/docs/git-status
 
-After the clone, a plain git fetch without arguments will update all the remote-tracking branches, and a git pull without arguments will in addition merge the remote master branch into the current master branch, if any (this is untrue when "--single-branch" is given; see below).
+```sh
+$ git status
+```
 
-This default configuration is achieved by creating references to the remote branch heads under refs/remotes/origin and by initializing remote.origin.url and remote.origin.fetch configuration variables.
+Show the working tree status
