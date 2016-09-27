@@ -32,3 +32,11 @@ $ git add --all
 ```
 
 Add file contents to the index
+
+### git push - https://git-scm.com/docs/git-push
+
+```sh
+$ git push
+```
+
+Update remote refs along with associated objects
