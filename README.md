@@ -58,3 +58,11 @@ $ git checkout work
 ```
 
 Switch branches or restore working tree files
+
+### git merge - https://git-scm.com/docs/git-merge
+
+```sh
+$ git merge work
+```
+
+Join two or more development histories together
