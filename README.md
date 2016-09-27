@@ -16,3 +16,11 @@ $ git status
 ```
 
 Show the working tree status
+
+### git commit - https://git-scm.com/docs/git-commit
+
+```sh
+$ git commit -a -m "Put your message here"
+```
+
+Record changes to the repository
