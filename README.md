@@ -24,3 +24,11 @@ $ git commit -a -m "Put your message here"
 ```
 
 Record changes to the repository
+
+### git add - https://git-scm.com/docs/git-add
+
+```sh
+$ git add --all
+```
+
+Add file contents to the index
