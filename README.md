@@ -50,3 +50,11 @@ $ git branch -d work
 ```
 
 List, create, or delete branches
+
+### git checkout - https://git-scm.com/docs/git-checkout
+
+```sh
+$ git checkout work
+```
+
+Switch branches or restore working tree files
