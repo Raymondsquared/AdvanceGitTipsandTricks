@@ -91,3 +91,13 @@ $ git show
 ```
 
 Show various types of objects
+
+### git cat-file - https://git-scm.com/docs/git-cat-file
+
+```sh
+$ git git cat-file -p head
+$ git cat-file -p 54cacd
+$ git cat-file -p 579500
+```
+
+Provide content or type and size information for repository objects
