@@ -67,3 +67,11 @@ $ git merge work
 ```
 
 Join two or more development histories together
+
+### git log - https://git-scm.com/docs/git-log
+
+```sh
+$ git log
+```
+
+Show commit logs
