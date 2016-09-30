@@ -83,3 +83,11 @@ $ git diff
 ```
 
 Show changes between commits, commit and working tree
+
+### git show - https://git-scm.com/docs/git-show
+
+```sh
+$ git show
+```
+
+Show various types of objects
