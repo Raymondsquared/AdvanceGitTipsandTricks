@@ -80,6 +80,8 @@ Show commit logs
 
 ```sh
 $ git diff
+$ git diff head~1..head --stat
+$ git diff head~2:README.md..head:README.md
 ```
 
 Show changes between commits, commit and working tree
