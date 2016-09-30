@@ -82,6 +82,7 @@ Show commit logs
 $ git diff
 $ git diff head~1..head --stat
 $ git diff head~2:README.md..head:README.md
+$ git diff --staged
 ```
 
 Show changes between commits, commit and working tree
@@ -97,9 +98,17 @@ Show various types of objects
 ### git cat-file - https://git-scm.com/docs/git-cat-file
 
 ```sh
-$ git git cat-file -p head
+$ git cat-file -p head
 $ git cat-file -p 54cacd
 $ git cat-file -p 579500
 ```
 
 Provide content or type and size information for repository objects
+
+### git add - https://git-scm.com/docs/git-add
+
+```sh
+$ git add README.md
+```
+
+Add file contents to the index
