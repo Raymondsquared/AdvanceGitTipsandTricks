@@ -75,3 +75,11 @@ $ git log
 ```
 
 Show commit logs
+
+### git diff - https://git-scm.com/docs/git-diff
+
+```sh
+$ git diff
+```
+
+Show changes between commits, commit and working tree
