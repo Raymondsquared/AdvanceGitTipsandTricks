@@ -112,3 +112,11 @@ $ git add README.md
 ```
 
 Add file contents to the index
+
+### git reset - https://git-scm.com/docs/git-reset
+
+```sh
+$ git reset HEAD
+```
+
+Reset current HEAD to the specified state
