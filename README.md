@@ -132,3 +132,15 @@ $ git rebase HEAD
 ```
 
 Reapply commits on top of another base tip
+
+### git stash - https://git-scm.com/docs/git-stash
+
+```sh
+$ git stash save "WIP"
+$ git stash list
+$ git stash save apply
+$ git stash save drop
+$ git stash save pop
+```
+
+Stash the changes in a dirty working directory away
