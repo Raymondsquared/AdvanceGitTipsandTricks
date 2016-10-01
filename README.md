@@ -38,6 +38,8 @@ Add file contents to the index
 ```sh
 $ git push
 $ git push origin work
+$ git push origin --delete work
+$ git push -u origin experiment
 ```
 
 Update remote refs along with associated objects
@@ -64,6 +66,7 @@ Switch branches or restore working tree files
 
 ```sh
 $ git merge work
+$ git merge master
 ```
 
 Join two or more development histories together
@@ -117,6 +120,7 @@ Add file contents to the index
 
 ```sh
 $ git reset HEAD
+$ git reset --hard HEAD~1
 ```
 
 Reset current HEAD to the specified state
