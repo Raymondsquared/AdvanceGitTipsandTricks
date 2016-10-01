@@ -120,3 +120,11 @@ $ git reset HEAD
 ```
 
 Reset current HEAD to the specified state
+
+### git rebase - https://git-scm.com/docs/git-rebase
+
+```sh
+$ git rebase HEAD
+```
+
+Reapply commits on top of another base tip
