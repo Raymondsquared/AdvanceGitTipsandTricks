@@ -1,2 +1,3 @@
 This is a new file
 Even more text
+Rename function
