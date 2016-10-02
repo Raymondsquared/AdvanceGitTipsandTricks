@@ -3,3 +3,5 @@ Even more text
 Rename function
 Delete file
 Acceptance test
+Feature
+Edit
