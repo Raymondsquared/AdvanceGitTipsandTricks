@@ -21,6 +21,7 @@ Show the working tree status
 
 ```sh
 $ git commit -a -m "Put your message here"
+$ git commit --amend
 ```
 
 Record changes to the repository
@@ -29,6 +30,7 @@ Record changes to the repository
 
 ```sh
 $ git add --all
+$ git add .
 ```
 
 Add file contents to the index
@@ -121,6 +123,7 @@ Add file contents to the index
 ```sh
 $ git reset HEAD
 $ git reset --hard HEAD~1
+$ git reset --hard origin/master
 ```
 
 Reset current HEAD to the specified state
@@ -129,6 +132,9 @@ Reset current HEAD to the specified state
 
 ```sh
 $ git rebase HEAD
+$ git rebase -i HEAD~4
+$ git rebase --continue
+$ git rebase --abort
 ```
 
 Reapply commits on top of another base tip
